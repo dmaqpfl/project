@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*font-family: 'Nanum Gothic', serif;*/
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+/*font-family: 'Jeju Hallasan', serif;*/
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+/*font-family: 'Jeju Gothic', serif;*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+/*font-family: 'Nanum Gothic Coding', serif;*/
+
+body{font-family: 'Nanum Gothic', serif;}
+body,h1,h2,h3,h4,h5,h6,p,div,ol,ul,dl,li,img,form,textarea,input,fieldset,label,select{margin:0; padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+img{border:none;}
+
+select,textarea,label,input,img{vertical-align:middle;}
