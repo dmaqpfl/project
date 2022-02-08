@@ -1,0 +1,36 @@
+/* body */
+body{
+    background-color: aliceblue;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+}
+
+/* div */
+.contain{
+    width:300px;
+    margin: 21% auto 0;
+}
+
+
+/* h1 */
+#h1_id{
+    display: none;
+}
+
+
+/* 버튼 css */
+.button_style{
+    width: 300px;
+    height: 50px; 
+    padding: 10px;
+
+    font-variant: 30px;
+    font-size: 20px;
+
+}
+
+/* 일일 뉴스 요약 */
+/* #dailyNews{
+    margin-bottom: 30px;
+} */
+

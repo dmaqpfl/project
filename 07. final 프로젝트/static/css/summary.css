@@ -1,0 +1,182 @@
+/* body */
+body{
+    background-color: aliceblue;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+}
+
+
+/* 버튼 css */
+.button_style{
+    width: 80px;
+    height: 40px; 
+    padding: 5px;
+
+    font-variant: 30px;
+    font-size: 18px;
+
+}
+
+#summarize_button{
+    width: 100px;
+}
+
+
+/* contentsWrap */
+.contentsWrap{
+    width: 80%;
+    margin: auto;
+
+
+
+
+}
+
+/* summary_contents1 */
+.summary_contents1 ,.summary_contents2{
+
+    width: 60%;
+    margin: 50px auto 10px ;
+    
+    padding: 10px 10px 10px 0;
+}
+
+#h1_id a{
+    color: #333;
+}
+
+#h1_id a:visited{
+    color: #333;
+}
+
+.summary_contents1{
+    border-bottom: solid 1px #6666;
+}
+
+
+.summary_contents2::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+/* contents1_boutton */
+.contents1_boutton.contents1_boutton{
+    float: right;
+    /* display: block; */
+    display: none;
+}
+
+
+/* textarea */
+textarea{
+    width: 100%;
+    height: 300px;
+    font-size: 16px;
+    border: none;
+    resize: vertical;
+}
+
+/* buttons_wrap */
+.buttons_wrap{
+    width: 100%;
+    position: relative;
+    margin:30px auto;
+
+}
+
+#summarize_button{
+    position:absolute;
+    right: 0;
+
+}
+
+
+/* summarize_text_content */
+.summarize_text_content{
+    position: relative;
+    top: 80px;
+
+    padding-bottom: 50px;
+
+}
+
+
+.summarize_text{
+    width: 96%;
+    min-height: 100px;
+
+    margin: 30px 1% 100px 1%;
+    padding: 10px 1% 10px 1%;
+
+    text-align: left;
+
+    border: #6666 solid 1px;
+    border-radius: 7px;
+
+    background: #fff;
+    box-shadow: rgb(153, 153, 153, 0.2) 2px 2px 2px 1px ;
+
+
+}
+
+.summarize_text:first-child{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.summarize_text a{
+    font-weight: bolder;
+}
+
+
+
+
+.summarize_text textarea{
+    border: none;
+    text-align: start;
+   
+}
+
+textarea::-webkit-scrollbar{
+    width: 5px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+textarea::-webkit-scrollbar-track {
+    background-color: rgb(0, 66, 66);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+  }
+
+textarea:focus{
+    outline: 0.5px solid #999;
+}
+
+
+/* 
+#mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #f1f2f3;
+    left:0; 
+    top:0;
+    opacity: 0.6;
+    display: none;
+} */
+
+
+
+#loadingImg { 
+    position: absolute; 
+    top: 45%; 
+    left: 43%; 
+    z-index: 100; 
+    display: none;
+    
+}
+
+

@@ -1,0 +1,24 @@
+/* 버튼 css */
+.button_style{
+    background-color: white; 
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-weight: bolder;
+    color: #000900;
+    
+}
+
+.button_style:hover{
+    background-color: #333; 
+    border: solid fff 0.5px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+
